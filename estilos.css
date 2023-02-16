@@ -1,0 +1,32 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --amarillo: #ffdd00;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 2% 7%;
+    font-family: 'Quicksand', sans-serif;
+    /*width: 100%;
+    height: 100%;*/
+    display: grid;
+    grid-template-columns: repeat(5, fr);
+    grid-template-rows: repeat(4, fr);
+}
+section{
+    margin: 3px;
+    cursor: pointer;
+    background-color: var(--amarillo);
+}
+.presentacion {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+
+}
+
